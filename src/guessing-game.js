@@ -12,12 +12,10 @@ class GuessingGame {
     }
 
     lower() {
-//        return Math.round((min + this.assumption) / 2)
         this.max = this.assumption;
     }
     
     greater() {
-        // return Math.round((this.assumption + max) / 2)
         this.min = this.assumption;
     }
 }
